@@ -3,9 +3,9 @@ import "./Screen.css";
 
 const Screen = ({ value }) => {
     return (
-        <div className="screen" mode ="screen" max={70}>
+        <p className="screen" mode ="screen" max={70}>
             {value}
-        </div>
+        </p>
     )
 }
 
